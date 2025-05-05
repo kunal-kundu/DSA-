@@ -16,6 +16,8 @@ void insertionSort(int arr[], int n)
             arr[j + 1] = arr[j];
             j--;
         }
+
+        /* place the key in it's correct  position */
         arr[j + 1] = key;
     }
 }
